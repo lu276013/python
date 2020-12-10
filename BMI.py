@@ -6,7 +6,7 @@ class BMI:
         self.height = float(height)
         self.BMI = float(self.weight/(self.height*self.height))
     def say(self):
-        print("{n},的BMI是,{p}".format(n=self.name,p=self.weight/(self.height*self.height)))
+        print("{n}的BMI是{p}".format(n=self.name,p=self.weight/(self.height*self.height)))
         if self.BMI <18.5:
             print("偏瘦")
         elif self.BMI <24:
